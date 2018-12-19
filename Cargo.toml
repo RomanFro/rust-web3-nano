@@ -1,0 +1,11 @@
+[package]
+name = "rust-web3-nano"
+version = "0.1.0"
+authors = ["@romfrolov <roman.frolov@wings.ai>"]
+
+[lib]
+name = "jsonrpc"
+path = "src/jsonrpc.rs"
+
+[dependencies]
+reqwest = "0.9.5"                # higher level HTTP client library
